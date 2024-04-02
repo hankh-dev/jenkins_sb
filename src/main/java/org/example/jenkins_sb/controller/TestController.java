@@ -11,6 +11,7 @@ class TestController {
 
     @GetMapping("/test")
     List<String> all() {
+        System.out.println("GET /test");
         List<String> strings = new ArrayList<>();
         strings.add("hi");
         strings.add("kh");
