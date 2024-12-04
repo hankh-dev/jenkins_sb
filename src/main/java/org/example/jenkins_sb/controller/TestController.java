@@ -16,6 +16,7 @@ class TestController {
         strings.add("hi");
         strings.add("kh");
         strings.add("i`m ms");
+        strings.add("nice to meet you");
         return strings;
     }
 
